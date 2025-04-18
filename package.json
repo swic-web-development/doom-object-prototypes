@@ -1,21 +1,12 @@
 {
-  "name": "js-node-template",
+  "name": "javascript-objects-and-prototypes-practice",
   "version": "1.0.0",
-  "description": "CIS 177 Node Template",
   "main": "src/index.js",
   "scripts": {
     "test": "vitest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/swic-web-development/js-node-template.git"
-  },
   "author": "CodeFinity",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/swic-web-development/js-node-template/issues"
-  },
-  "homepage": "https://github.com/swic-web-development/js-node-template#readme",
   "devDependencies": {
     "@eslint/js": "^9.24.0",
     "eslint": "^9.24.0",
