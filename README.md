@@ -1,56 +1,37 @@
-# js-node-template
+# JavaScript Objects and Prototypes Practice
 
-We learn JS Computer Science and Programming Fundamentals by Running Node Codes.
+## Overview
+
+In this assignment, you'll practice working with JavaScript's powerful object manipulation methods by implementing functions to transform data from the popular video game DOOM.
 
 ## Getting Started
-
-Welcome to the JS Node Template! This guide will help you get started with the project.
 
 ### Installation
 
 1. **Clone the repository:**
 
-   Make sure you have used the previously supplied link for GitHub Classroom. The repository should reflect your GitHub username on the GitHub website. Then, you can proceed with the following steps:
-
-   ```sh
-   # Make sure you are in a directory such as `Dev` and not inside an existing repository!
-   gh repo clone YOUR_GITHUB_USERNAME/js-node-template
-   cd js-node-template
-   ```
+   Make sure you have used the GitHub Classroom link to access this repository. The repository should reflect your GitHub username on the GitHub website. Clone it to your local machine.
 
 2. **Install dependencies:**
 
-   ```sh
-   npm i
-   ```
+   Navigate to the cloned repository in your terminal and run `npm i`.
 
-3. **Open the project in VSCode:**
+3. Open the project in VS Code
 
-   ```sh
-   code .
-   ```
+`code .`.
 
-4. **Look for a prompt in the bottom right about extensions:**
-   - VSCode may prompt you to install recommended extensions. Make sure to install them for a better development experience.
+## Assignment Tasks (30 points total)
 
-### Project Structure
+The repository contains three files in the `src` directory:
 
-- **src/index.js:** The main entry point of the application. You can write and run your Node.js code here.
-- **package.json:** Contains metadata about the project and its dependencies. It also defines scripts that can be run using `npm`.
-- **package-lock.json:** Automatically generated file that locks the versions of the installed packages.
-- **LICENSE:** The license under which the project is distributed.
-- **biome.json:** Configuration file for Biome, a tool for formatting and linting your code.
-- **.vscode/settings.json:** VSCode settings specific to this project, including formatting and linting configurations.
-- **.vscode/extensions.json:** List of recommended VSCode extensions for this project.
-- **.gitignore:** Specifies files and directories that should be ignored by Git.
-- **README.md:** This file. Contains information about the project and instructions for getting started.
+`data.js` - Contains the DOOM monster data
+`index.js` - Where you'll implement your solutions
+`index.test.js` - Tests that verify your solutions
 
-### Running the Project
+## Hints
 
-To run the project, use the following command:
+Hints
 
-```sh
-node src/index.js
-```
-
-Happy coding!
+- Remember that `Object.keys(), Object.values(), and Object.entries()` can help you work with nested objects
+- Consider using array methods like `map`, `filter`, and `reduce` along with object methods
+- Pay attention to the structure of the data in `data.js` - you'll need to navigate through multiple levels of nesting
