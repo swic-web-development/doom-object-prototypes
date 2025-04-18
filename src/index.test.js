@@ -2,7 +2,7 @@
 
 import { expect, test, describe } from 'vitest'
 import { extractMonsterNames, calculateThreatLevels, organizeByThreatLevel, sum } from './index.js'
-import monsters from './data.js'
+import data from './data.js'
 
 describe('Monster Names Extraction', () => {
   test('should extract all monster names correctly', () => {
@@ -15,7 +15,7 @@ describe('Monster Names Extraction', () => {
       'Cyberdemon',
     ]
 
-    const result = extractMonsterNames(monsters)
+    const result = extractMonsterNames(data)
 
     // Check that all expected names are present
     expect(result).toHaveLength(expectedNames.length)
@@ -36,7 +36,7 @@ describe('Threat Level Calculation', () => {
       { name: 'Cyberdemon', threatLevel: 320000 }, // 4000 * 80
     ]
 
-    const result = calculateThreatLevels(monsters)
+    const result = calculateThreatLevels(data)
 
     // Check each monster has correct threat level
     expectedThreatLevels.forEach((expected) => {
@@ -49,7 +49,7 @@ describe('Threat Level Calculation', () => {
 
 describe('Monster Organization by Threat Level', () => {
   test('should organize monsters by threat level categories', () => {
-    const result = organizeByThreatLevel(monsters)
+    const result = organizeByThreatLevel(data)
 
     // Test structure - these are example categories, students might choose different thresholds
     expect(result).toHaveProperty('lowThreat')
