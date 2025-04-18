@@ -1,5 +1,7 @@
 # JavaScript Objects and Prototypes Practice
 
+[Video](https://go.screenpal.com/watch/cTfFeVnjgGd)
+
 ## Overview
 
 In this assignment, you'll practice working with JavaScript's powerful object manipulation methods by implementing functions to transform data from the popular video game DOOM.
